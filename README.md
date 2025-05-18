@@ -23,7 +23,7 @@ This is a Python-based tool that automates brute force login attempts on GUI-bas
 ### Step 1: Clone or Download This Repo
 
 ```bash
-git clone https://github.com/your-username/brute-force-tool.git
+git clone https://github.com/Saurabhm2/brute-force-tool.git
 cd brute-force-tool
 pip install -r requirements.txt
 ```
