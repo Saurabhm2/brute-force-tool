@@ -51,7 +51,7 @@ try:
             
             print(f"Attempting {email}:{password}")
             login_attempt(email, password)
-            time.sleep(1)
+            time.sleep(0.5)
 
 except KeyboardInterrupt:
     emergency_stop()
