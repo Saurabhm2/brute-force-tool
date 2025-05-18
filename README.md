@@ -17,12 +17,102 @@ This is a Python-based tool that automates brute force login attempts on GUI-bas
 
 ---
 
-## 🖥️ System Requirements
 
-- Python 3.x
-- `pyautogui` library
+## 🔧 Setup Instructions
 
-Install the required package:
+### Step 1: Clone or Download This Repo
 
 ```bash
+git clone https://github.com/your-username/brute-force-tool.git
+cd brute-force-tool
 pip install -r requirements.txt
+```
+
+### Step 2: Install Required Python Libraries
+
+```bash
+Make sure Python is installed. Then run:
+pip install -r requirements.txt
+```
+This installs required packages like pyautogui.
+
+### Step 3: Prepare Your Email and Password Lists
+Create two files in the root directory:
+
+emails.txt
+```bash
+user1@example.com
+user2@example.com
+```
+password.txt
+```bash
+password123
+admin@123
+```
+You can add as many combinations as needed.
+
+### Step 4: Capture Screen Coordinates
+Run the coordinate capture script:
+
+```bash
+python coordinates.py
+```
+
+Follow the on-screen instructions:
+
+- Click the Email input field
+- Click the Password input field
+- Click the Login button
+
+This will create a file called coords.json like this:
+```bash
+{
+  "email": [1571, 471],
+  "password": [1562, 529],
+  "login": [1575, 637]
+}
+```
+
+### Step 5: Run the Brute Force Attack Script
+Now you're ready to run the attack:
+
+```bash
+python brute.py
+```
+
+
+The script will:
+
+- Loop through each email and password pair
+- Move the mouse to the correct fields using screen coordinates
+- Type the email and password
+- Click the login button
+- Wait between each attempt
+
+### 📌 Example Output
+
+```bash
+Trying user1@example.com : password123  
+Trying user1@example.com : admin@123  
+Trying user2@example.com : password123  
+...
+```
+
+
+## 🛡️ Legal & Ethical Use
+This tool is intended ONLY for:
+
+- ✅ Educational cybersecurity training
+- ✅ Local app or dummy login testing
+- ✅ Ethical penetration testing (with permission)
+
+❌ Never use on real systems, websites, or applications without permission. Doing so is illegal and unethical.
+
+## 🙋‍♂️ Author
+  Saurabh Mahamuni.
+---
+  GitHub: @Saurabhm2.
+
+🌟 Contributions
+- Pull requests and feedback are welcome.
+- Feel free to fork and improve the tool!
