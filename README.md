@@ -119,3 +119,12 @@ This tool is intended ONLY for:
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🚨 Legal Notice
+
+Unauthorized use of this tool against systems you don't own or have explicit permission to test is:
+- Illegal under computer crime laws (CFAA, GDPR, etc.)
+- A violation of GitHub's Terms of Service
+- Unethical in cybersecurity practice
+
+The author assumes no liability for misuse of this software.
