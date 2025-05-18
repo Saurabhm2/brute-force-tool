@@ -116,3 +116,6 @@ This tool is intended ONLY for:
 🌟 Contributions
 - Pull requests and feedback are welcome.
 - Feel free to fork and improve the tool!
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
