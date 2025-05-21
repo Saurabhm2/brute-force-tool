@@ -1,0 +1,4 @@
+# Create requirements.txt
+echo "pyautogui==0.9.53
+keyboard==0.13.5
+python3-xlib==0.15  # For Linux" > requirements.txt
